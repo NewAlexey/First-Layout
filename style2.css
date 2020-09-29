@@ -11,7 +11,7 @@ h1.site-header a {
 
 h2.site-header {
   margin-left: 10px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 .p-lower {
   line-height: 10px;
@@ -24,10 +24,6 @@ h2.site-header {
   color:grey;
 }
 
-.vertical a {
-  text-decoration: none;
-  color:white;
-}
 body {
   background: #c0c0c0;
   margin: 0;
@@ -82,7 +78,8 @@ body {
   color: #f2f2f2;
   text-align: center;
   padding: 10px 10px 10px 5px;
-  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-color: black;
   font-size: 21px;
 }
 
